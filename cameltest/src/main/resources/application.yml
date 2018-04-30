@@ -1,0 +1,12 @@
+routes:
+  port: 8088
+  route:
+    -
+      from: posts
+      to: jsonplaceholder.typicode.com/posts/?
+    -
+      from: users
+      to: reqres.in/api/users
+    -
+      from: countries
+      to: https://restcountries.eu/rest/v2/
